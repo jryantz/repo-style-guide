@@ -33,3 +33,14 @@ _Example_:
 
 - _GitHub Issue_: #216 - Link color not changing on hover
 - _Branch_: 216-hover-link-color
+
+## Issues
+
+Issues are required to help manage your backlog of feature requests and bug fixes.  Issues can be added by customers, users, or developer - but should be updated frequently.  When a developer begins work on an Issue, they should assign themselves and ensure that all data and metadata is accurate.
+
+The two most important pieces of metadata are the **assignee** and the **label**:  
+
+- By assigning yourself or another developer to an issue, this alerts all other developers that someone is managing the issue.  Multiple developers can be assigned to the same issue if needed, and tagging (@jryantz) can be used to involve other users.
+- Before beginning development (if not defined during creation), the label should be set to the type of work that is being done.
+
+Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
