@@ -22,3 +22,15 @@ Examples:
 `1.0.x`
 `1.1.0`
 `2.0.0`
+
+**Feature Branches**
+
+Feature branches are created by contributors to manage their own development.  These branches do not require any protection should be removed once the new feature code has been successfully merged into the version branch.
+
+These branches should always coorespond to a specific Issue with the name representing that connection.
+
+Examples:
+
+GitHub Issue: #216 - Link color not changing on hover
+
+Branch: 216-hover-link-color
