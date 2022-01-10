@@ -12,3 +12,13 @@ Examples:
 `release/production`
 `release/staging`
 `release/development`
+
+**Version Branches**
+
+Version branches do not require branch protection, but could be configured as such if the development team is large.  With branch protection, these branches would prevent merge commits to reduce the risk of code overwrites if local merges are performed incorrectly.  Ideally, the pull request approver would catch any issues and require changes before approving.
+
+Examples:
+`1.0.0`
+`1.0.x`
+`1.1.0`
+`2.0.0`
