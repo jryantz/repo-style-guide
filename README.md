@@ -33,8 +33,10 @@ These branches should always coorespond to a specific Issue with the name repres
 
 _Example_:
 
-- _GitHub Issue_: #216 - Link color not changing on hover
-- _Branch_: 216-hover-link-color
+- _GitHub Issue_
+  > #216 - Link color not changing on hover
+- _Branch_
+  > 216-hover-link-color
 
 ## Issues
 
@@ -52,3 +54,46 @@ The two most important pieces of metadata are the **assignee** and the **label**
   - _Tech Debt_: (needs to be created) any changes that remove or fix code that reduces the complexity of the application code base.
 
 Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
+
+## Releases
+
+Releases provide a simple way to keep track of changes over time.  When a release is created, a tag is created that can be used as a reference to the commit that contains the change.  This reference is a good marker in case a rollback to a previous version is needed.
+
+Releases should only be greated on the main branch.  For example, your main branch could be named any of the following:
+
+- `main`
+- `master`
+- `release/production`
+
+Always provide good release notes in your release.  These notes provide an easy go-to list of historical changes for both developers and users.
+
+### New Version, Example
+
+Tag: v1.0.0
+
+Title: Release 1.0.0
+
+> Provide a message outlining the release as a whole.  This can be a short paragraph about the changes and the advantages provided by the changes.
+> 
+> # Enhancements
+> 
+> - List item 1
+> - List item 2
+>   - Sub-list item 1
+> - List item 3
+> 
+> # Bug Fixes
+> 
+> - List item 1
+> - List item 2
+
+### Bug Fix, Example
+
+Tag: v1.0.1
+
+Title: Release 1.0.1
+
+> # Bug Fixes
+> 
+> - List item 1
+> - List item 2
