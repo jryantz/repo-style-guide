@@ -36,11 +36,17 @@ _Example_:
 
 ## Issues
 
-Issues are required to help manage your backlog of feature requests and bug fixes.  Issues can be added by customers, users, or developer - but should be updated frequently.  When a developer begins work on an Issue, they should assign themselves and ensure that all data and metadata is accurate.
+Issues are useful to help manage the backlog of feature requests and bug fixes.  Issues can be added by customers, users, or the developer(s) and should be updated frequently.  When a developer begins work on an issue, they should assign it to themselves and ensure that all data and metadata is accurate.
 
 The two most important pieces of metadata are the **assignee** and the **label**:  
 
-- By assigning yourself or another developer to an issue, this alerts all other developers that someone is managing the issue.  Multiple developers can be assigned to the same issue if needed, and tagging (@jryantz) can be used to involve other users.
-- Before beginning development (if not defined during creation), the label should be set to the type of work that is being done.
+- _Assignee_: assigning yourself or another developer to an issue alerts every stakeholder that someone is managing the issue.
+  - Multiple developers can be assigned to the same issue if needed.
+  - Tagging (@jryantz) can be used to involve other users.
+- _Label_: before beginning development, the label should be set to the type of work that is being done.  The following labels are the most used and helpful.
+  - _Bug_: any change that resolved a problem experienced by a user.
+  - _Documentation_: changes that improve or update documentation in code or the dedicated documentation set.
+  - _Enhancement_: any new code that improves or adds functionality.
+  - _Tech Debt_: (needs to be created) any changes that remove or fix code that reduces the complexity of the application code base.
 
 Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
