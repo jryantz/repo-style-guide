@@ -1,6 +1,8 @@
 # Repository Style Guide
 
-This guide will break down the style that I follow when building my repositories.
+This guide will break down my recommended style for code repositories.  It can be helpful to include this in the repository README.
+
+_Replace this section with information about why this style guide has been included._
 
 ## Branches
 
