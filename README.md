@@ -69,31 +69,34 @@ Always provide good release notes in your release.  These notes provide an easy 
 
 ### New Version, Example
 
-Tag: v1.0.0
+- _Tag_: v1.0.0
+- _Title_: Release 1.0.0
 
-Title: Release 1.0.0
+```
+Provide a message outlining the release as a whole.
+This can be a short paragraph about the changes and the advantages provided by the changes.
 
-> Provide a message outlining the release as a whole.  This can be a short paragraph about the changes and the advantages provided by the changes.
-> 
-> # Enhancements
-> 
-> - List item 1
-> - List item 2
->   - Sub-list item 1
-> - List item 3
-> 
-> # Bug Fixes
-> 
-> - List item 1
-> - List item 2
+# Enhancements
+
+- List item 1
+- List item 2
+  - Sub-list item 1
+- List item 3
+
+# Bug Fixes
+
+- List item 1
+- List item 2
+```
 
 ### Bug Fix, Example
 
-Tag: v1.0.1
+- _Tag_: v1.0.1
+- _Title_: Release 1.0.1
 
-Title: Release 1.0.1
+```
+# Bug Fixes
 
-> # Bug Fixes
-> 
-> - List item 1
-> - List item 2
+- List item 1
+- List item 2
+```
