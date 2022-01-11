@@ -1,4 +1,4 @@
-# GitHub Style Guide
+# Repository Style Guide
 
 This guide will break down the style that I follow when building my repositories.
 
