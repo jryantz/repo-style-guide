@@ -55,6 +55,56 @@ The two most important pieces of metadata are the **assignee** and the **label**
 
 Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
 
+## Projects
+
+Using projects to sort your issues can be helpful to keep a better hold on what matters right now.  To get started, ensure that there are always a few projects created.  The number of projects may vary depending on the stage of development.
+
+### New Project, Example
+
+At the beginning of a development project, typically the concerns are more focussed on getting to a shipping product.  Therefore, there are only 2 projects to setup: features to work now and features to work later.
+
+> _Name_: **1.0.0**
+> 
+> _Description_: Planning features in version 1.0
+> 
+> _Template_: Automated kanban
+
+> _Name_: **2.0.0**
+> 
+> _Description_: Planning features in version 2.0
+> 
+> _Template_: Automated kanban
+
+### Existing Project, Example
+
+With an existing development project, there is a lot more to deal with.  At any point in time, bugs could arise in the current version, or a new feature could be requested.  To deal with this wave, at least 4 projects should be running at all times.
+
+Setting the stage: version 1.0.0 has been deployed and version 1.1.0 is in active development.
+
+> _Name_: **1.0.x**
+> 
+> _Description_: Catch-all for bugs found in version 1.0
+> 
+> _Template_: Bug triage
+
+> _Name_: **1.1.0**
+> 
+> _Description_: Planning features in version 1.1
+> 
+> _Template_: Automated kanban
+
+> _Name_: **1.2.0**
+> 
+> _Description_: Planning features in version 1.2
+> 
+> _Template_: Automated kanban
+
+> _Name_: **2.0.0**
+> 
+> _Description_: Planning features in version 2.0
+> 
+> _Template_: Automated kanban
+
 ## Releases
 
 Releases provide a simple way to keep track of changes over time.  When a release is created, a tag is created that can be used as a reference to the commit that contains the change.  This reference is a good marker in case a rollback to a previous version is needed.
