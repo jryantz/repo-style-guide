@@ -48,10 +48,7 @@ The two most important pieces of metadata are the **assignee** and the **label**
   - Multiple developers can be assigned to the same issue if needed.
   - Tagging (@jryantz) can be used to involve other users.
 - _Label_: before beginning development, the label should be set to the type of work that is being done.  The following labels are the most used and helpful.
-  - _Bug_: any change that resolved a problem experienced by a user.
-  - _Documentation_: changes that improve or update documentation in code or the dedicated documentation set.
-  - _Enhancement_: any new code that improves or adds functionality.
-  - _Tech Debt_: (needs to be created) any changes that remove or fix code that reduces the complexity of the application code base.
+<img width="1236" alt="image" src="https://user-images.githubusercontent.com/5770190/149231644-9faf727b-a563-45b9-8803-45ff9f0cb0c6.png">
 
 Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
 
