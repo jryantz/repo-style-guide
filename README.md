@@ -40,9 +40,13 @@ _Example_:
 
 ## Issues
 
-Issues are useful to help manage the backlog of feature requests and bug fixes.  Issues can be added by customers, users, or the developer(s) and should be updated frequently.  When a developer begins work on an issue, they should assign it to themselves and ensure that all data and metadata is accurate.
+Issues are useful to help manage the backlog of feature requests and bug fixes.  Issues can be added by customers, users, or the developer(s) and should be updated frequently.
 
-The two most important pieces of metadata are the **assignee** and the **label**:  
+To help the user who is creating the new issue, setup Issue templates to ensure that you get all of the needed information.
+
+
+
+When a developer begins work on an issue, they should assign it to themselves and ensure that all data and metadata is accurate.  The two most important pieces of metadata are the **assignee** and the **label**:  
 
 - _Assignee_: assigning yourself or another developer to an issue alerts every stakeholder that someone is managing the issue.
   - Multiple developers can be assigned to the same issue if needed.
