@@ -52,6 +52,7 @@ When a developer begins work on an issue, they should assign it to themselves an
   - Multiple developers can be assigned to the same issue if needed.
   - Tagging (@jryantz) can be used to involve other users.
 - _Label_: before beginning development, the label should be set to the type of work that is being done.  The following labels are the most used and helpful.
+
 ![Screenshot of the labels](./assets/label-screenshot.png)
 
 Note: the comments section should be used to keep track of crucial decisions made while developing the feature.  
