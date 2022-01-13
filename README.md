@@ -42,15 +42,19 @@ _Example_:
 
 Issues are useful to help manage the backlog of feature requests and bug fixes.  Issues can be added by customers, users, or the developer(s) and should be updated frequently.
 
-To help the user who is creating the new issue, setup Issue templates to ensure that you get all of the needed information.
+To help the user who is creating the new issue, setup Issue templates to ensure that you get all of the needed information.  3 issue templates typically cover most use cases.
 
+![Bug report template](./assets/issue-bug.jpeg)
 
+![Enhancement request template](./assets/issue-enhancement.jpeg)
+
+![Feature request template](./assets/issue-feature.jpeg)
 
 When a developer begins work on an issue, they should assign it to themselves and ensure that all data and metadata is accurate.  The two most important pieces of metadata are the **assignee** and the **label**:  
 
 - _Assignee_: assigning yourself or another developer to an issue alerts every stakeholder that someone is managing the issue.
   - Multiple developers can be assigned to the same issue if needed.
-  - Tagging (@jryantz) can be used to involve other users.
+  - Tagging (@user) can be used to involve other users.
 - _Label_: before beginning development, the label should be set to the type of work that is being done.  The following labels are the most used and helpful.
 
 ![Screenshot of the labels](./assets/label-screenshot.png)
