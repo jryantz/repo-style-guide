@@ -4,6 +4,20 @@ This guide will break down my recommended style for code repositories.  It can b
 
 _Replace this section with information about why this style guide has been included._
 
+## TOC
+
+1. [Branches](#branches)
+  - [Release Branches](#release-branches)
+  - [Version Branches](#version-branches)
+  - [Feature Branches](#feature-branches)
+1. [Issues](#issues)
+1. [Projects](#projects)
+1. [Releases](#releases)
+1. [Issue Templates](#issue-templates)
+  - [Bug Report Template](#bug-report-template)
+  - [Enhancement Template](#enhancement-template)
+  - [Feature Template](#feature-template)
+
 ## Branches
 
 **Release Branches**
@@ -42,107 +56,7 @@ _Example_:
 
 Issues are useful to help manage the backlog of feature requests and bug fixes.  Issues can be added by customers, users, or the developer(s) and should be updated frequently.
 
-To help the user who is creating the new issue, setup Issue templates to ensure that you get all of the needed information.  3 issue templates typically cover most use cases.
-
-### Bug Report Template
-
-[Template](./issue-template-bug.md) - [Example](./assets/issue-bug.jpeg)
-
-**Template Name**
-
-> **Bug report**
-
-**About**
-
-> Create a report to help us improve
-
-**Template Content**
-
-> **Requestor**
-> 
-> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
-> 
-> **Describe the bug**
-> 
-> _A clear and concise description of what the bug is._
-> 
-> **To Reproduce**
-> 
-> Steps to reproduce the behavior:
-> 1. Go to '...'
-> 2. Click on '....'
-> 3. Scroll down to '....'
-> 4. See error
-> 
-> **Expected behavior**
-> 
-> _A clear and concise description of what you expected to happen._
->  
-> **Screenshots**
-> 
-> _If applicable, add screenshots to help explain your problem._
->  
-> **Device information (please complete the following information):**
-> - Browser [e.g. edge, chrome, firefox]
->  
-> **Additional context**
-> 
-> _Add any other context about the problem here._
-
-### Enhancement Template
-
-[Template](./issue-template-enhancement.md) - [Example](./assets/issue-enhancement.jpeg)
-
-**Template Name**
-
-> **Enhancement request**
-
-**About**
-
-> Suggest a change to the project
-
-**Template Content**
-
-> **Requestor**
-> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
->  
-> **Is your request related to a problem? Please describe.**
-> _A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]_
->  
-> **Describe the solution you'd like**
-> _A clear and concise description of what you want to happen._
->  
-> **Additional context**
-> _Add any other context or screenshots about the feature request here._
-
-### Feature Template
-
-[Template](./issue-template-feature.md) - [Example](./assets/issue-feature.jpeg)
-
-**Template Name**
-
-> **Feature request**
-
-**About**
-
-> Suggest a new idea for this project
-
-**Template Content**
-
-> **Requestor**
-> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
->  
-> **Is your feature request related to a problem? Please describe.**
-> _A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]_
->  
-> **Describe the solution you'd like**
-> _A clear and concise description of what you want to happen._
->  
-> **Describe alternatives you've considered**
-> _A clear and concise description of any alternative solutions or features you've considered._
->  
-> **Additional context**
-> _Add any other context or screenshots about the feature request here._
+To help the user who is creating the new issue, setup [Issue Templates](#issue-templates) to ensure that you get all of the needed information.  3 issue templates typically cover most use cases.
 
 When a developer begins work on an issue, they should assign it to themselves and ensure that all data and metadata is accurate.  The two most important pieces of metadata are the **assignee** and the **label**:  
 
@@ -250,3 +164,105 @@ This can be a short paragraph about the changes and the advantages provided by t
 - List item 1
 - List item 2
 ```
+
+## Issue Templates
+
+### Bug Report Template
+
+[Template](./issue-template-bug.md) - [Example](./assets/issue-bug.jpeg)
+
+**Template Name**
+
+> **Bug report**
+
+**About**
+
+> Create a report to help us improve
+
+**Template Content**
+
+> **Requestor**
+> 
+> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
+> 
+> **Describe the bug**
+> 
+> _A clear and concise description of what the bug is._
+> 
+> **To Reproduce**
+> 
+> Steps to reproduce the behavior:
+> 1. Go to '...'
+> 2. Click on '....'
+> 3. Scroll down to '....'
+> 4. See error
+> 
+> **Expected behavior**
+> 
+> _A clear and concise description of what you expected to happen._
+>  
+> **Screenshots**
+> 
+> _If applicable, add screenshots to help explain your problem._
+>  
+> **Device information (please complete the following information):**
+> - Browser [e.g. edge, chrome, firefox]
+>  
+> **Additional context**
+> 
+> _Add any other context about the problem here._
+
+### Enhancement Template
+
+[Template](./issue-template-enhancement.md) - [Example](./assets/issue-enhancement.jpeg)
+
+**Template Name**
+
+> **Enhancement request**
+
+**About**
+
+> Suggest a change to the project
+
+**Template Content**
+
+> **Requestor**
+> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
+>  
+> **Is your request related to a problem? Please describe.**
+> _A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]_
+>  
+> **Describe the solution you'd like**
+> _A clear and concise description of what you want to happen._
+>  
+> **Additional context**
+> _Add any other context or screenshots about the feature request here._
+
+### Feature Template
+
+[Template](./issue-template-feature.md) - [Example](./assets/issue-feature.jpeg)
+
+**Template Name**
+
+> **Feature request**
+
+**About**
+
+> Suggest a new idea for this project
+
+**Template Content**
+
+> **Requestor**
+> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
+>  
+> **Is your feature request related to a problem? Please describe.**
+> _A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]_
+>  
+> **Describe the solution you'd like**
+> _A clear and concise description of what you want to happen._
+>  
+> **Describe alternatives you've considered**
+> _A clear and concise description of any alternative solutions or features you've considered._
+>  
+> **Additional context**
+> _Add any other context or screenshots about the feature request here._
