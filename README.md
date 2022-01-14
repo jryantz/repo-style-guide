@@ -7,16 +7,10 @@ _Replace this section with information about why this style guide has been inclu
 ## TOC
 
 1. [Branches](#branches)
-  - [Release Branches](#release-branches)
-  - [Version Branches](#version-branches)
-  - [Feature Branches](#feature-branches)
 1. [Issues](#issues)
 1. [Projects](#projects)
 1. [Releases](#releases)
 1. [Issue Templates](#issue-templates)
-  - [Bug Report Template](#bug-report-template)
-  - [Enhancement Template](#enhancement-template)
-  - [Feature Template](#feature-template)
 
 ## Branches
 
