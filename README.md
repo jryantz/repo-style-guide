@@ -44,6 +44,43 @@ Issues are useful to help manage the backlog of feature requests and bug fixes. 
 
 To help the user who is creating the new issue, setup Issue templates to ensure that you get all of the needed information.  3 issue templates typically cover most use cases.
 
+### Bug Report Template
+
+**Template Name**
+
+> **Bug report**
+
+**About**
+
+> Create a report to help us improve
+
+_Template content_:
+
+> **Requestor**
+> _Who first became aware of this issue?  If you are entering this for yourself, enter your info._
+> 
+> **Describe the bug**
+> _A clear and concise description of what the bug is._
+> 
+> **To Reproduce**
+> Steps to reproduce the behavior:
+> 1. Go to '...'
+> 2. Click on '....'
+> 3. Scroll down to '....'
+> 4. See error
+> 
+> **Expected behavior**
+> _A clear and concise description of what you expected to happen._
+>  
+> **Screenshots**
+> _If applicable, add screenshots to help explain your problem._
+>  
+> **Device information (please complete the following information):**
+> - Browser [e.g. edge, chrome, firefox]
+>  
+> **Additional context**
+> _Add any other context about the problem here._
+
 ![Bug report template](./assets/issue-bug.jpeg)
 
 ![Enhancement request template](./assets/issue-enhancement.jpeg)
