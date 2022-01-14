@@ -46,9 +46,7 @@ To help the user who is creating the new issue, setup Issue templates to ensure 
 
 ### Bug Report Template
 
-[Raw Template](./issue-template-bug.md)
-
-[Example](./assets/issue-bug.jpeg)
+[Template](./issue-template-bug.md) - [Example](./assets/issue-bug.jpeg)
 
 **Template Name**
 
@@ -93,9 +91,7 @@ To help the user who is creating the new issue, setup Issue templates to ensure 
 
 ### Enhancement Template
 
-[Raw Template](./issue-template-enhancement.md)
-
-[Example](./assets/issue-enhancement.jpeg)
+[Template](./issue-template-enhancement.md) - [Example](./assets/issue-enhancement.jpeg)
 
 **Template Name**
 
@@ -121,9 +117,7 @@ To help the user who is creating the new issue, setup Issue templates to ensure 
 
 ### Feature Template
 
-[Raw Template](./issue-template-feature.md)
-
-[Example](./assets/issue-feature.jpeg)
+[Template](./issue-template-feature.md) - [Example](./assets/issue-feature.jpeg)
 
 **Template Name**
 
